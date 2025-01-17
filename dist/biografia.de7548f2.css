@@ -1,0 +1,135 @@
+h1 {
+  text-align: center;
+}
+
+.timeline {
+  padding: 2rem 0;
+  position: relative;
+}
+
+.timeline:before {
+  content: "";
+  background-color: #343a40;
+  width: 4px;
+  margin-left: -2px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+}
+
+.timeline-item {
+  clear: both;
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.timeline-content {
+  float: right;
+  background-color: #f8f9fa;
+  border-radius: 5px;
+  width: 45%;
+  margin-left: 50%;
+  padding: 1rem;
+}
+
+.timeline-content-inner {
+  max-height: 0;
+  transition: max-height .3s ease-in-out;
+  overflow: hidden;
+}
+
+.timeline-content-inner.expanded {
+  max-height: 500px;
+  margin-top: 10px;
+}
+
+.timeline-content-trigger {
+  cursor: pointer;
+}
+
+.timeline-content img {
+  border-radius: 5px;
+  max-width: 100%;
+  height: auto;
+  margin: 10px auto;
+  display: block;
+  box-shadow: 0 2px 5px #0003;
+}
+
+body[data-bs-theme="light"] .timeline:before {
+  background-color: #212529 !important;
+}
+
+body[data-bs-theme="dark"] .timeline:before {
+  background-color: #fff !important;
+}
+
+body[data-bs-theme="light"] .timeline-date {
+  border: 2px solid #343a40;
+}
+
+body[data-bs-theme="dark"] .timeline-date {
+  background-color: #343a40;
+  border: 2px solid #fff;
+}
+
+.timeline {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 0;
+  position: relative;
+}
+
+.timeline:before {
+  content: "";
+  z-index: 0;
+  background-color: #343a40;
+  width: 4px;
+  margin-left: -2px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+}
+
+.timeline-item {
+  margin-bottom: 2rem;
+  padding: 0 2rem;
+  position: relative;
+}
+
+.timeline-date {
+  z-index: 1;
+  background-color: #fff;
+  border: 2px solid #343a40;
+  border-radius: 5px;
+  padding: .5rem 1rem;
+  font-weight: bold;
+  position: absolute;
+  top: .5rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.timeline-content {
+  box-sizing: border-box;
+  background-color: #f8f9fa;
+  border-radius: 5px;
+  width: calc(50% - 3rem);
+  margin-left: 50%;
+  padding: 1rem;
+}
+
+.timeline-item:nth-child(2n) .timeline-content {
+  float: left;
+  margin-left: 0;
+  margin-right: 50%;
+}
+
+footer {
+  position: relative;
+  top: 121px;
+}
+/*# sourceMappingURL=biografia.de7548f2.css.map */

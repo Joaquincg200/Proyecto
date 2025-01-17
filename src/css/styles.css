@@ -1,0 +1,103 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  padding: 1rem;
+}
+
+footer {
+  padding: 1rem;
+}
+
+main {
+  flex-grow: 1;
+  padding: 2rem;
+}
+.bienvenida h1 {
+  font-size: 2.8em;
+  font-weight: 600;
+  color: #003366;
+  display: flex;
+  justify-content: space-around;
+}
+
+.imagen-Elyoya {
+  max-width: 100%;
+  height: auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.1s ease;
+}
+
+.imagen-Elyoya:hover {
+  transform: scale(1.1);
+}
+
+#dl-icon {
+  font-size: 1.5rem;
+  color: white;
+}
+body[data-bs-theme="dark"] header {
+  background-color: #000 !important;
+  transition: background-color 0.5s ease;
+}
+
+body[data-bs-theme="light"] header {
+  background-color: dark !important;
+  transition: background-color 0.5s ease;
+}
+
+body[data-bs-theme="dark"] footer {
+  background-color: #000 !important;
+  transition: background-color 0.5s ease
+}
+
+body[data-bs-theme="light"] footer {
+  background-color: dark !important;
+  transition: background-color 0.5s ease
+}
+
+body[data-bs-theme="dark"] main {
+  background-color: #212529 !important;
+  transition: background-color 0.5s ease;
+}
+
+body[data-bs-theme="light"] main {
+  background-color: whitesmoke !important;
+  transition: background-color 0.5s ease,;
+}
+
+body[data-bs-theme="dark"] .timeline-content{
+  background-color: whitesmoke !important;
+  color: #212529 !important;
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+body[data-bs-theme="dark"] .inicio{
+  color: white !important;
+  transition: color 0.5s ease;
+}
+
+body[data-bs-theme="dark"] .boton{
+  background-color: whitesmoke !important;
+  color: #212529 !important;
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+#spinner {
+  background-color: rgba(0, 0, 0, 0.5); 
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}

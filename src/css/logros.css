@@ -1,0 +1,55 @@
+.simple-slider {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* Ocultar todas las imágenes excepto la activa */
+.simple-slider .slider-item {
+    display: none;
+    width: 100%;
+    opacity: 0;
+}
+
+/* Mostrar solo la imagen activa */
+.simple-slider .slider-item.active {
+    display: block;
+    opacity: 1;
+}
+
+/* Estilo de la imagen */
+.simple-slider img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Estilo de los botones */
+.slider-contrzols button {
+    position: absolute;
+    top: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    padding: 10px;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+    z-index: 100;
+}
+
+#prevBtn {
+    left: 10px;
+}
+
+#nextBtn {
+    right: 10px;
+}
+
+/* Estilo del texto */
+.slider-item h2 {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
