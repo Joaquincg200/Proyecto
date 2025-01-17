@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logros</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simple-slider@1.0.0/dist/simple-slider.min.css">
+    
+    <!--Estilos-->
+    <link href="/index.77a9bc14.css" rel="stylesheet">
+    <link rel="stylesheet" href="/logros.4681598e.css">
+</head>
+<body data-bs-theme="light">
+    <!--Header-->
+    <header class="bg-dark text-white py-3">
+        <nav class="navbar navbar-expand-lg navbar-dark container">
+            <button onclick="cambiarTema()" class="btn">
+                <i id="dl-icon" class="bi bi-moon-fill"></i>
+            </button>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link " href="/index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/biografia.html">Biografía</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="/logros.html">Logros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/galeria.html">Galería</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Quiz</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main-->
+    <main>
+        <div class="container mt-5">
+            <div class="simple-slider">
+                <h1 class="text-center">Logros de Elyoya</h1>
+                <!-- Slider de imágenes -->
+                <div class="slider-item">
+                    <img src="/121888-yoya4-1-article_cover_bd-1.2628db73.webp" alt="Imagen 1" class="img-fluid rounded mb-3">
+                    <h2>Superliga Rookie of the Split (Spring 2020)</h2>
+                </div>
+                <div class="slider-item">
+                    <img src="/SLO20-Premios-Temporada-TW-MVP-1024x576.a724ac9f.jpg" alt="Imagen 2" class="img-fluid rounded mb-3">
+                    <h2>Superliga MVP (Summer 2020)</h2>
+                </div>
+                <div class="slider-item">
+                    <img src="/leaguelegends_3254803.7a76f713.jpg" alt="Imagen 3" class="img-fluid rounded mb-3" style="height: 450px">
+                    <h2>Ganador de Superliga (Summer 2020)</h2>
+                </div>
+                <div class="slider-item">
+                    <img src="/EystwNyWEAAupjN-780x470t.6f006d53.jpg" alt="Imagen 3" class="img-fluid rounded mb-3">
+                    <h2>LEC Rookie of the Split (Spring 2021)</h2>
+                </div>
+                <div class="slider-item">
+                    <img src="/EystUvIXMAIeSEV.13f2a32b.jpg" alt="Imagen 3" class="img-fluid rounded mb-3">
+                    <h2>LEC 3rd All-Pro Team (Spring 2021)</h2>
+                </div>
+                <div class="slider-item">
+                    <img src="/LeagueOfLegends_LEC_Spring2021_Final_Trophy_Elyoya-1024x577.965aba86.jpg" alt="Imagen 3" class="img-fluid rounded mb-3">
+                    <h2>Ganador de LEC (Spring 2021)</h2>
+                </div>
+                <div class="slider-item">
+                    <img src="/LEC-summer-all-pro.39106439.avif" alt="Imagen 3" class="img-fluid rounded mb-3" style="height: 450px">
+                    <h2>3x LEC 1st All-Pro Team (Summer 2022)</h2>
+                </div>
+                <div class="slider-item">
+                    <img src="/mad-lions-lec-esportimes.5c175524.jpg" alt="Imagen 3" class="img-fluid rounded mb-3">
+                    <h2>Ganador de LEC (Summer 2021)</h2>
+                </div>
+                <div class="slider-item">
+                    <img src="/EjLJ5AEi1d0vNB0aD4r29Qc1FFtjSO__qCCeJtngVlOhkiNu7Xq8AmGkIb-lN9r5kzLzUTEZXUmVOhljviG_4g.1712d91e.webp" alt="Imagen 3" class="img-fluid rounded mb-3">
+                    <h2>LEC 1st All-Pro Team (Winter 2023)</h2>
+                </div>
+                <div class="slider-item">
+                    <img src="/lecat1.2f0f685d.jpg" alt="Imagen 3" class="img-fluid rounded mb-3">
+                    <h2>LEC 1st All-Pro Team (Spring 2023)</h2>
+                </div>
+                <div class="slider-item">
+                    <img src="/LeagueofLegends_LECSpring2023_MADLions_Champions_Trophy.35857320.jpg" alt="Imagen 3" class="img-fluid rounded mb-3">
+                    <h2>Ganador de LEC (Spring 2023)</h2>
+                </div>
+            </div>
+            
+            <div class="slider-controls mt-4 text-center">
+            <button class="btn" id="prevBtn">
+                <i class="bi bi-chevron-left"></i>
+            </button>
+            <button class="btn" id="nextBtn">
+                <i class="bi bi-chevron-right"></i>
+            </button>
+        </div>
+    </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <p>© 2025 Elyoya. Todos los derechos reservados.</p>
+            <p>
+                Síguelo en:
+                <a href="https://twitter.com/Elyoya_LoL" target="_blank" class="text-white text-decoration-none">
+                    <i class="bi bi-twitter"></i> Twitter
+                </a> |
+                <a href="https://www.instagram.com/elyoyalol/" target="_blank" class="text-white text-decoration-none">
+                    <i class="bi bi-instagram"></i> Instagram
+                </a>
+            </p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/simple-slider@1.0.0/dist/simple-slider.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
+            <script src="/index.aa69868b.js"></script>
+<script src="/logros.31b8831d.js"></script></body>
+<div id="spinner" style="z-index: 9999; background-color: #00000080; justify-content: center; align-items: center; width: 100%; height: 100%; display: flex; position: fixed; top: 0; left: 0">
+    <div class="spinner-border text-primary" role="status">
+      <span class="visually-hidden">Cargando...</span>
+    </div>
+  </div>
+</html>

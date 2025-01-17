@@ -58,20 +58,24 @@ h1 {
 }
 
 body[data-bs-theme="light"] .timeline:before {
+  transition: background-color .5s;
   background-color: #212529 !important;
 }
 
 body[data-bs-theme="dark"] .timeline:before {
+  transition: background-color .5s;
   background-color: #fff !important;
 }
 
 body[data-bs-theme="light"] .timeline-date {
   border: 2px solid #343a40;
+  transition: border .5s;
 }
 
 body[data-bs-theme="dark"] .timeline-date {
   background-color: #343a40;
   border: 2px solid #fff;
+  transition: background-color .5s, border .5s;
 }
 
 .timeline {
