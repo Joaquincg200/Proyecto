@@ -1,176 +1,258 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/biografia.css">
-</head>
-<body>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="css/styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/biografia.css" />
+  </head>
+  <body>
     <!--Header-->
     <header class="bg-dark text-white py-3">
-        <nav class="navbar navbar-expand-lg navbar-dark container">
-            <!-- Botón de cambio de tema alineado a la izquierda -->
-            <button onclick="cambiarTema()" class="btn rounded-fill">
-                <i id="dl-icon" class="bi bi-moon-fill"></i>
-            </button>
-            
-            <!-- Botón de la hamburguesa para el menú -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-    
-            <!-- Menú de navegación -->
-            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="biografia.html">Biografía</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="logros.html">Logros</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="galeria.html">Galería</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contacto</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Quiz</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+      <nav class="navbar navbar-expand-lg navbar-dark container">
+        <!-- Botón de cambio de tema alineado a la izquierda -->
+        <button onclick="cambiarTema()" class="btn rounded-fill">
+          <i id="dl-icon" class="bi bi-moon-fill"></i>
+        </button>
+
+        <!-- Botón de la hamburguesa para el menú -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Menú de navegación -->
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="biografia.html">Biografía</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="logros.html">Logros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="galeria.html">Galería</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </header>
-  
+
     <!-- Main-->
     <div class="container mt-5">
-        <h1>Trayectoria de Elyoya</h1>
-        <div class="timeline">
-            <div class="timeline-item">
-                <div class="timeline-date">2020</div>
-                    <div class="timeline-content bg-dark text-white">
-                <h2 class="timeline-content-trigger text-center">Debut de Elyoya</h2>
-                <div class="timeline-content-inner">
-                    <p>Javier Prades Batalla, conocido como "Elyoya", comenzó su carrera en los 
-                        videojuegos enfocándose en League of Legends. Inició jugando en GGaming, 
-                        donde fue el jungla del equipo, logrando ganar un torneo en España. 
-                        A mitad de año, se convirtió en el nuevo jungla de la academia de uno de 
-                        los mejores equipos de España, Movistar Riders, con quienes
-                         Elyoya ganaría un torneo en Madrid.</p>
-                    <img src="img/121888-yoya4-1-article_cover_bd-1.webp" width="75%" alt="Elyoya en MAD Lions Madrid" class="img-fluid">
-                </div>
-            </div>
-            </div>
-            <div class="timeline-item">
-                <div class="timeline-date">2020</div>
-            <div class="timeline-content bg-dark text-white">
-                <h2 class="timeline-content-trigger text-center">Primer Equipo</h2>
-                <div class="timeline-content-inner">
-                    <p>En 2020 Elyoya sería el nuevo jungla del primer equipo. Compitiendo en la mejor liga de España. Elyoya tendría un inicio impresionante, 
-                        llegando a ganar el rookie del split y clasificando a la European Masters, siendo el torneo mas importante de Europa , 
-                        pero perdería la final de la liga española contra Vodafone Giants en 2-3. En el segundo split Elyoya tuvo una mejora increible, 
-                        sus fans le empezaron a poner motes por sus grandes jugadas como "elpoya". Elyoya volvería a otra final de la competición española y esta vez sería contra G2 Artic, 
-                        pero Elyoya se llevaría la victoria con un 3-0.</p>
-                    <img src="img/121888-yoya4-1-article_cover_bd-1.webp" width="75%" alt="Elyoya en MAD Lions Madrid" class="img-fluid">
-                </div>
-            </div>
-            </div>
-            <div class="timeline-item">
-                <div class="timeline-date">2020</div>
-            <div class="timeline-content bg-dark text-white ">
-                <h2 class="timeline-content-trigger text-center">Primer Equipo</h2>
-                <div class="timeline-content-inner">
-                    <p>En 2020 Elyoya sería el nuevo jungla del primer equipo. Compitiendo en la mejor liga de España. Elyoya tendría un inicio impresionante, 
-                        llegando a ganar el rookie del split y clasificando a la European Masters, siendo el torneo mas importante de Europa , 
-                        pero perdería la final de la liga española contra Vodafone Giants en 2-3. En el segundo split Elyoya tuvo una mejora increible, 
-                        sus fans le empezaron a poner motes por sus grandes jugadas como "elpoya". Elyoya volvería a otra final de la competición española y esta vez sería contra G2 Artic, 
-                        pero Elyoya se llevaría la victoria con un 3-0.</p>
-                    <img src="img/121888-yoya4-1-article_cover_bd-1.webp" width="75%" alt="Elyoya en MAD Lions Madrid" class="img-fluid">
-                </div>
-            </div>
-            </div>
-            <div class="timeline-item">
-                <div class="timeline-date">2020</div>
-            <div class="timeline-content bg-dark text-white">
-                <h2 class="timeline-content-trigger text-center">Primer Equipo</h2>
-                <div class="timeline-content-inner">
-                    <p>En 2020 Elyoya sería el nuevo jungla del primer equipo. Compitiendo en la mejor liga de España. Elyoya tendría un inicio impresionante, 
-                        llegando a ganar el rookie del split y clasificando a la European Masters, siendo el torneo mas importante de Europa , 
-                        pero perdería la final de la liga española contra Vodafone Giants en 2-3. En el segundo split Elyoya tuvo una mejora increible, 
-                        sus fans le empezaron a poner motes por sus grandes jugadas como "elpoya". Elyoya volvería a otra final de la competición española y esta vez sería contra G2 Artic, 
-                        pero Elyoya se llevaría la victoria con un 3-0.</p>
-                    <img src="img/121888-yoya4-1-article_cover_bd-1.webp" width="75%" alt="Elyoya en MAD Lions Madrid" class="img-fluid">
-                </div>
-            </div>
-            </div>
-            <div class="timeline-item">
-                <div class="timeline-date">2020</div>
-            <div class="timeline-content bg-dark text-white">
-                <h2 class="timeline-content-trigger text-center">Primer Equipo</h2>
-                <div class="timeline-content-inner">
-                    <p>En 2020 Elyoya sería el nuevo jungla del primer equipo. Compitiendo en la mejor liga de España. Elyoya tendría un inicio impresionante, 
-                        llegando a ganar el rookie del split y clasificando a la European Masters, siendo el torneo mas importante de Europa , 
-                        pero perdería la final de la liga española contra Vodafone Giants en 2-3. En el segundo split Elyoya tuvo una mejora increible, 
-                        sus fans le empezaron a poner motes por sus grandes jugadas como "elpoya". Elyoya volvería a otra final de la competición española y esta vez sería contra G2 Artic, 
-                        pero Elyoya se llevaría la victoria con un 3-0.</p>
-                    <img src="img/121888-yoya4-1-article_cover_bd-1.webp" width="75%" alt="Elyoya en MAD Lions Madrid" class="img-fluid">
-                </div>
-            </div>
-            </div>
-            <div class="timeline-item">
-                <div class="timeline-date">2020</div>
-            <div class="timeline-content bg-dark text-white">
-                <h2 class="timeline-content-trigger text-center">Primer Equipo</h2>
-                <div class="timeline-content-inner">
-                    <p>En 2020 Elyoya sería el nuevo jungla del primer equipo. Compitiendo en la mejor liga de España. Elyoya tendría un inicio impresionante, 
-                        llegando a ganar el rookie del split y clasificando a la European Masters, siendo el torneo mas importante de Europa , 
-                        pero perdería la final de la liga española contra Vodafone Giants en 2-3. En el segundo split Elyoya tuvo una mejora increible, 
-                        sus fans le empezaron a poner motes por sus grandes jugadas como "elpoya". Elyoya volvería a otra final de la competición española y esta vez sería contra G2 Artic, 
-                        pero Elyoya se llevaría la victoria con un 3-0.</p>
-                    <img src="img/121888-yoya4-1-article_cover_bd-1.webp" width="75%" alt="Elyoya en MAD Lions Madrid" class="img-fluid">
-                </div>
-            </div>
-            </div>
-            </div>
-    </div>
-        <!-- Footer -->
-        <footer class="bg-dark text-white text-center py-4">
-            <div class="container">
-              <p>© 2025 Elyoya. Todos los derechos reservados.</p>
+      <h1>Trayectoria de Elyoya</h1>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-date">2019</div>
+          <div class="timeline-content bg-dark text-white">
+            <h2 class="timeline-content-trigger text-center">
+              Debut de Elyoya
+            </h2>
+            <div class="timeline-content-inner">
               <p>
-                Síguelo en:
-                <a
-                  href="https://twitter.com/Elyoya_LoL"
-                  target="_blank"
-                  class="text-white text-decoration-none"
-                >
-                  <i class="bi bi-twitter"></i> Twitter
-                </a>
-                |
-                <a
-                  href="https://www.instagram.com/elyoyalol/"
-                  target="_blank"
-                  class="text-white text-decoration-none"
-                >
-                  <i class="bi bi-instagram"></i> Instagram
-                </a>
+                Javier Prades Batalla, conocido como "Elyoya", comenzó su
+                carrera en los videojuegos enfocándose en League of Legends.
+                Inició jugando en GGaming, donde fue el jungla del equipo,
+                logrando ganar un torneo en España. A mitad de año, se convirtió
+                en el nuevo jungla de la academia de uno de los mejores equipos
+                de España, Movistar Riders, con quienes Elyoya ganaría un torneo
+                en Madrid.
               </p>
             </div>
-          </footer>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-date">2020</div>
+          <div class="timeline-content bg-dark text-white">
+            <h2 class="timeline-content-trigger text-center">Primer Equipo</h2>
+            <div class="timeline-content-inner">
+              <p>
+                En 2020 Elyoya sería el nuevo jungla del primer equipo.
+                Compitiendo en la mejor liga de España. Elyoya tendría un inicio
+                impresionante, llegando a ganar el rookie del split y
+                clasificando a la European Masters, siendo el torneo mas
+                importante de Europa , pero perdería la final de la liga
+                española contra Vodafone Giants en 2-3. En el segundo split
+                Elyoya tuvo una mejora increible, sus fans le empezaron a poner
+                motes por sus grandes jugadas como "elpoya". Elyoya volvería a
+                otra final de la competición española y esta vez sería contra G2
+                Artic, pero Elyoya se llevaría la victoria con un 3-0.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-date">2021</div>
+          <div class="timeline-content bg-dark text-white">
+            <h2 class="timeline-content-trigger text-center">
+              El reinado de un novato
+            </h2>
+            <div class="timeline-content-inner">
+              <p>
+                Con tan solo dos años de competición, Elyoya alcanzaría la
+                máxima competición europea al fichar por el equipo Mad Lions.
+                Ganaría el título de "Rookie del Split" y se destacaría como uno
+                de los mejores de su equipo. En su primer split, conseguiría
+                ganar la LEC y clasificaría al MSI, un torneo internacional.
+                Junto a su equipo, llegaría a los cuartos de final enfrentándose
+                a DK (Damwon Kia), el mejor equipo coreano, y perdería por un
+                2-3 en el global. Elyoya volvería a ganar otro split de la LEC y
+                clasificaría al Mundial como el primer equipo, pero nuevamente
+                quedarían eliminados en cuartos de final, esta vez contra DK
+                (Damwon Kia).
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-date">2022</div>
+          <div class="timeline-content bg-dark text-white">
+            <h2 class="timeline-content-trigger text-center">La caída</h2>
+            <div class="timeline-content-inner">
+              <p>
+                Después de un gran año, Elyoya renovaría su contrato con Mad
+                Lions, incorporando nuevos compañeros de equipo. Comenzaría la
+                temporada con un nivel impresionante, pero pronto su rendimiento
+                comenzaría a decaer, hasta el punto de no clasificar a los
+                playoffs. Debido a su bajo rendimiento, le empezaron a poner el
+                mote de "Elyayo". En el Summer Split, el equipo sufriría cambios
+                y lograría clasificar a los playoffs, pero no ganaría ningún
+                BO3. A pesar de esto, se clasificarían al Mundial, donde no
+                lograrían pasar del play-in.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-date">2023</div>
+          <div class="timeline-content bg-dark text-white">
+            <h2 class="timeline-content-trigger text-center">
+              Elyoya vs MadLions
+            </h2>
+            <div class="timeline-content-inner">
+              <p>
+                Elyoya seguiría en Mad Lions otro año más, con nuevos compañeros
+                de equipo. En el Winter Split, el equipo mostraría un gran
+                nivel, llegando a la final contra G2, el mejor equipo de la LEC,
+                pero perderían 0-3. Después de ese enfrentamiento, Elyoya
+                perdería la confianza en el equipo, ya que, mientras intentaba
+                explicar un problema, sus compañeros le sugirieron que se diera
+                un paseo para relajarse. En el Spring Split, comenzarían muy
+                mal, logrando llegar a los playoffs de milagro. Elyoya buscaría
+                soluciones y las encontraría. Derrotarían a G2 por 3-2 en las
+                semifinales, y Elyoya sentiría que ya tenían lo necesario para
+                ganar el split. Llegarían a la final contra BDS, donde
+                empezarían perdiendo 0-2, lo que desconcertaría a Elyoya, pero
+                remontarían la final, ganando 3-2 y conquistando el Spring
+                Split. Se clasificarían una vez más al MSI, pero ese torneo
+                sería desastroso. Tras la derrota, Elyoya se sentiría destrozado
+                mientras su equipo se reía. El Summer Split sería el peor de
+                Elyoya, pero igualmente clasificarían al Mundial. Sin embargo,
+                el Mundial no mejoraría los resultados anteriores, siendo
+                eliminados al principio del torneo.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-date">2024</div>
+          <div class="timeline-content bg-dark text-white">
+            <h2 class="timeline-content-trigger text-center">
+              El renacer de un fenix
+            </h2>
+            <div class="timeline-content-inner">
+              <p>
+                En 2024, sería el año de Elyoya. Se le confiaría el proyecto y
+                traería nueva sangre a la LEC. Nadie confiaba en el equipo que
+                había formado, pero Elyoya callaría bocas con su rendimiento en
+                el Winter Split, llegando a la final con un gran juego, aunque
+                perderían 1-3 contra G2. En el Spring y Summer Split, el equipo
+                bajaría mucho el nivel, y la culpa recaería en Elyoya, pero los
+                fans seguían creyendo en él. Llegaría la LEC Finals, el torneo
+                que reúne a los 6 mejores equipos del año. El equipo de Elyoya
+                se enfrentaría contra G2 y lograrían la victoria por 3-2,
+                gracias a unas grandes estrategias. Sin embargo, perderían en
+                las semifinales, dejando una buena sensación. Elyoya
+                clasificaría al Mundial, pero el equipo no lograría un buen
+                rendimiento, perdiendo 0-3 en la fase de grupos. Aunque sería el
+                peor Mundial en términos de resultados para Elyoya, dejaría
+                grandes sensaciones.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4">
+      <div class="container">
+        <p>© 2025 Elyoya. Todos los derechos reservados.</p>
+        <p>
+          Síguelo en:
+          <a
+            href="https://twitter.com/Elyoya_LoL"
+            target="_blank"
+            class="text-white text-decoration-none"
+          >
+            <i class="bi bi-twitter"></i> Twitter
+          </a>
+          |
+          <a
+            href="https://www.instagram.com/elyoyalol/"
+            target="_blank"
+            class="text-white text-decoration-none"
+          >
+            <i class="bi bi-instagram"></i> Instagram
+          </a>
+        </p>
+      </div>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
 
-        <script src="js/main.js"></script>
-    
-</body>
-<div id="spinner" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 9999; display: flex; justify-content: center; align-items: center;">
+    <script src="js/main.js"></script>
+  </body>
+  <div
+    id="spinner"
+    style="
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      z-index: 9999;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    "
+  >
     <div class="spinner-border text-primary" role="status">
       <span class="visually-hidden">Cargando...</span>
     </div>
