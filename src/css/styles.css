@@ -101,3 +101,9 @@ body[data-bs-theme="dark"] .boton{
   align-items: center;
   
 }
+
+.icon {
+  background-image: url('nueva-imagen.png');
+  width: 24px;
+  height: 24px;
+}
